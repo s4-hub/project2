@@ -38,9 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_cleanup.apps.CleanupConfig',
+<<<<<<< HEAD
     'django.contrib.humanize',
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
+=======
+    'shop.apps.ShopConfig',
+>>>>>>> dda3b204bf60e05416d0eca1366f60d6b4a937db
 ]
 
 MIDDLEWARE = [
@@ -134,5 +138,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+<<<<<<< HEAD
 
 CART_SESSION_ID = 'cart'
+=======
+>>>>>>> dda3b204bf60e05416d0eca1366f60d6b4a937db
